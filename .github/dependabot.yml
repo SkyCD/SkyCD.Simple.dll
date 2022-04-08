@@ -12,4 +12,4 @@ registries:
     type: nuget-feed
     url: https://nuget.pkg.github.com/SkyCD/index.json
     username: SkyCD
-    password: ${{secrets.GITHUB_TOKEN}}
+    password: ${{secrets.PACKAGES_PAT}}
