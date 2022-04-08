@@ -10,9 +10,9 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("SkyCD_Simple")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Home")> 
-<Assembly: AssemblyProduct("SkyCD_Simple")> 
-<Assembly: AssemblyCopyright("Copyright © Home 2005")> 
+<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyProduct("")> 
+<Assembly: AssemblyCopyright("Copyright © 2005")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: CLSCompliant(True)> 
