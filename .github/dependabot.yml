@@ -8,7 +8,7 @@ updates:
   open-pull-requests-limit: 25
 
 registries:
-  github_skycd:
+  skycd:
     type: nuget-feed
     url: https://nuget.pkg.github.com/SkyCD/index.json
     username: SkyCD
