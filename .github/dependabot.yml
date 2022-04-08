@@ -1,7 +1,15 @@
 version: 2
+
 updates:
 - package-ecosystem: nuget
   directory: "/"
   schedule:
     interval: daily
   open-pull-requests-limit: 25
+
+registries:
+  github_skycd:
+    type: nuget-feed
+    url: https://nuget.pkg.github.com/SkyCD/index.json
+    username: SkyCD
+    password: ${{secrets.GITHUB_TOKEN}}
