@@ -20,6 +20,7 @@
     <RepositoryUrl>https://github.com/SkyCD/SkyCD.Simple.dll</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <PackageVersion Condition="'$(PackageVersion)' == ''">0.1.0</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DefineTrace>false</DefineTrace>
