@@ -74,6 +74,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SkyCD.AdvancedFunctions.dll" Version="0.2.0" />
+    <PackageReference Include="SkyCD.AdvancedFunctions.dll" Version="0.3.0" />
   </ItemGroup>
 </Project>
